@@ -26,12 +26,12 @@ const ThirdCalculator = () => {
         Reverse Percentage Calculator
         </h2>
         <div className="flex gap-2">
-          <span className="font-medium">What nominal after subtracting by</span>
+          <span className="font-medium">What number, after subtracting</span>
           <InputField value={num1} onChange={(e) => setNum1(e.target.value)} />
-          <span className="font-medium"> % </span>
+          <span className="font-medium"> % from it,</span>
         </div>
         <div className="flex gap-2">
-          <span className="font-medium"> will result</span>
+          <span className="font-medium"> results in</span>
           <InputField value={num2} onChange={(e) => setNum2(e.target.value)} />
           <span className="font-medium">?</span>
         </div>

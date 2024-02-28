@@ -29,7 +29,7 @@ const FourthCalculator = () => {
         </h2>
         <div className="flex gap-2">
           <span className="font-medium">
-            How many percentages decrease/increase from
+          What is the percentage decrease/increase from
           </span>
           <InputField value={num1} onChange={(e) => setNum1(e.target.value)} />
         </div>
