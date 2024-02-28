@@ -1,4 +1,7 @@
-# Calculator Web App
+# % Calculator
+[Live](https://centcalculator.netlify.app/)
+
+![Preview](./src/assets/preview.png)
 
 This web app was built using React and Tailwind CSS. It performs various calculations including:
 
